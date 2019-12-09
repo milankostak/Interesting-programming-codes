@@ -25,7 +25,7 @@ public class FastStringBuilder {
     }
 
     private static String stringConcatenation(final List<String> list) {
-        long time = System.currentTimeMillis();
+        final long time = System.currentTimeMillis();
         String string = "";
         for (String s : list) {
             string += s;
