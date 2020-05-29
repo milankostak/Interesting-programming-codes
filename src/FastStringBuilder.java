@@ -17,12 +17,12 @@ public class FastStringBuilder {
 
         // 200_000 items
         // Concat vs StringBuilder
-        // 2800 ms - 11 ms
+        // 2800 ms vs 11 ms
         // 250 times faster
 
         // 400_000 items
         // Concat vs StringBuilder
-        // 9000 ms - 12 ms
+        // 9000 ms vs 12 ms
         // 750 times faster
     }
 

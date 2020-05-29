@@ -13,6 +13,8 @@ public class ArrayListInit {
         }
         System.out.println(System.currentTimeMillis() - time1);
         System.out.println(list1.size());
+        // necessary for avoiding potential over-optimization by Java
+        // (if not printed then the for-loop can be detected as meaningless)
 
 
         final List<String> list2 = new ArrayList<>(size);

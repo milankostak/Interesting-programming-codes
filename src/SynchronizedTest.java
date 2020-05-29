@@ -19,8 +19,8 @@ public class SynchronizedTest {
     }
 
     private static class TestThread extends Thread {
-        private String name;
-        private SynchronizedTest theDemo;
+        private final String name;
+        private final SynchronizedTest theDemo;
 
         private TestThread(String name, SynchronizedTest theDemo) {
             this.theDemo = theDemo;
